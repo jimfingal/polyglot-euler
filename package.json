@@ -1,0 +1,14 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "project euler in es6",
+  "main": "run_es6.js",
+  "dependencies": {
+    "sprintf": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./es6/tests.js"
+  },
+  "private": true
+}
