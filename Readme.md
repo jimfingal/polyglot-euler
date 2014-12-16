@@ -12,6 +12,17 @@ To run solutions:
 
 ## Javascript / ES6
 
+    # Required for ES6 features
     nvm install 0.11.14
+
     npm install
     npm run-script solve
+
+
+## Lua
+
+    # Required to read files and accurate timing
+    luarocks install lua-cjson
+    luarocks install luasocket
+    
+    lua run_lua.lua

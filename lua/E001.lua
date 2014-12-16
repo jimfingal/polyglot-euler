@@ -1,18 +1,16 @@
-var helpers = require('./helpers')
+E001 = {}
 
-var solution = function() {
+function E001.solution()
 
-    let max = 1000;
-    let sum = 0;
+    local sum = 0
 
-    for (let x of helpers.ascendingRangeGen(0, 1000, 1)) {
-        if (x % 3 == 0 || x % 5 == 0) {
-            sum += x;
-        }
-    };
+    for x = 0, 999 do
+        if (x % 3 == 0 or x % 5 == 0) then
+            sum = sum + x
+        end
+    end
 
-    return sum;
-};
+    return sum
+end
 
-
-exports.solution = solution;
+return E001
