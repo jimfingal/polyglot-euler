@@ -1,5 +1,5 @@
-var assert = require("assert")
-helpers = require("./helpers")
+var assert = require("assert");
+var helpers = require("./helpers");
 
 describe('Range Helpers', function() {
     describe('ascendingRange', function() {

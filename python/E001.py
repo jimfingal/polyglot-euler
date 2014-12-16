@@ -1,4 +1,3 @@
-
 def set_multiples_to_x(x, multiplier):
     return set(xrange(0, x, multiplier))
 
