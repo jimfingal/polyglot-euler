@@ -13,9 +13,9 @@ def is_prime(prime_array, num):
 
 def primes_up_to(max_num):
 
-    prime_array = [2]
+    prime_array = []
     
-    for num in xrange(3, max_num + 1, 2):
+    for num in xrange(2, max_num + 1, 2):
         if is_prime(prime_array, num):
             prime_array.append(num)
             
@@ -24,4 +24,4 @@ def primes_up_to(max_num):
 
 def solution():
     primes = primes_up_to(2000000)
-    return reduce(lambda x, y: x + y, primes, 0)
+    return sum(primes)
